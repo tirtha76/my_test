@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+
+<html>
+<head><h1>Welcome to Mechanical Engg..</h1></head><br><br><br>
+<title>Royal Mechanical</title>
+
+<body>
+<form action=" " method="post">
+    {% csrf_token %}
+    {{ MSG }}
+    {{ FORM.as_p }}
+            <button type="submit"value="save">Send Message</button>
+
+</form>
+
+</body>
+</html>
